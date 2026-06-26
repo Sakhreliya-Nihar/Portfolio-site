@@ -1,0 +1,55 @@
+title: "💼 Projects"
+items:
+  - name: "Portfolio"
+    description: "Sync from GitHub Personal Introduction & Website."
+    bullet_points:
+      - "Sync the GitHub Personal Introduction & Website and sync to every platform."
+      - "One place to manage all my projects and skills."
+    link: "https://github.com/Sakhreliya-Nihar/Portfolio-site"
+    deployment: "https://niharsakhreliya-portfolio.vercel.app/"
+    tag: "Next.js, React, Node.js, CI/CD, GitHub Actions, Vercel, Tailwind CSS, Shadcn UI, TypeScript, JavaScript" 
+    
+  - name: "SAMS - Certificate Issue Verification"
+    description: "Student Achievement Management System — a full-stack web application that centralizes the issuance and verification of student certificates and academic achievements."
+    bullet_points:
+      - "Role-based access control for admins, teachers, and students, each with tailored dashboards and privileges"
+      - "Secure certificate issuance, upload, and verification workflow backed by PHP and MySQL"
+      - "Responsive front-end built with HTML5, CSS3, JavaScript, and Bootstrap with PHPMailer integration for email notifications"
+    link: "https://github.com/Sakhreliya-Nihar/Certificate_issue_verification"
+    tag: "PHP, MySQL, HTML, CSS, JavaScript, Bootstrap, PHPMailer, XAMPP"
+
+  - name: "CertiScan Auth Verify"
+    description: "A modern certificate authentication and verification platform built with React and Supabase, enabling secure document validation workflows with a polished UI."
+    bullet_points:
+      - "Built with Vite, TypeScript, React, and Shadcn UI for a fast, type-safe development experience"
+      - "Integrates Supabase for backend authentication, real-time data handling, and cloud storage"
+      - "Styled with Tailwind CSS for a responsive and accessible interface across all devices"
+    link: "https://github.com/Sakhreliya-Nihar/certiscan-auth-verify"
+    tag: "TypeScript, React, Vite, Shadcn UI, Tailwind CSS, Supabase, JavaScript"
+
+  - name: "NetLeak"
+    description: "A dual-browser extension for Chrome and Firefox that detects and flags network information leaks, helping security researchers and privacy-conscious users identify real IP and DNS exposure."
+    bullet_points:
+      - "Available for both Chrome and Firefox via separate browser-specific extension manifests"
+      - "Identifies real IP addresses exposed through WebRTC, DNS lookups, and other browser-level network APIs"
+      - "Lightweight and in-browser — no external dependencies; built with vanilla JavaScript and HTML"
+    link: "https://github.com/Sakhreliya-Nihar/NetLeak"
+    tag: "JavaScript, HTML, Browser Extension, Chrome, Firefox, WebRTC, Network Security, OSINT"
+
+  - name: "Vajra"
+    description: "A lightweight SSRF reconnaissance and validation toolkit that automates subdomain enumeration, endpoint discovery, parameter extraction, payload injection, and concurrent request execution to streamline Server-Side Request Forgery testing."
+    bullet_points:
+      - "Automates the SSRF reconnaissance pipeline by integrating subdomain discovery, live host detection, URL harvesting from Wayback Machine, GAU, and active crawling."
+      - "Identifies parameterized endpoints, injects customizable SSRF callback payloads, and performs high-speed concurrent validation for efficient blind SSRF testing."
+      - "Designed for penetration testers and bug bounty hunters with support for popular open-source tools including Subfinder, Assetfinder, Httpx, Hakrawler, Waybackurls, GAU, QSReplace, and Concurl."
+    link: "https://github.com/Sakhreliya-Nihar/Vajra"
+    tag: "Bash, SSRF, Bug Bounty"
+
+  - name: "Web Attack Cheat Sheet"
+    description: "A comprehensive reference guide covering common web attack techniques, maintained as a hands-on resource for penetration testing and bug bounty hunting engagements."
+    bullet_points:
+      - "Covers OWASP Top 10 attack categories including SSRF, IDOR, SQLi, XSS, and command injection"
+      - "Structured as an actionable methodology reference for web application security assessments"
+      - "Used as a personal reference during active bug bounty programs targeting platforms like IBM and PhonePe"
+    link: "https://github.com/Sakhreliya-Nihar/Web-Attack-Cheat-Sheet"
+    tag: "Web Security, Penetration Testing, OWASP, Bug Bounty, Cheat Sheet, Methodology"

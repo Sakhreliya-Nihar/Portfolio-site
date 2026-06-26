@@ -1,0 +1,40 @@
+title: "💼 Experience Highlights"
+items:
+  - company: "🛡️ Independent Security Researcher"
+    description: "Actively performing vulnerability research and bug bounty hunting across public and private programs."
+    bullet_points:
+      - "Performed security assessments on government and enterprise applications through Bugcrowd and HackerOne."
+      - "Reported vulnerabilities including Cross-Site Scripting (XSS), Information Disclosure, CORS Misconfiguration, HTML Injection, and exposed developer resources."
+      - "Conducted reconnaissance, attack surface mapping, API security testing, and responsible vulnerability disclosure."
+      - "Worked with security triage teams from organizations including NASA, Sky, Marigold, and other private programs."
+      - "Continuously improving findings by validating exploitability and demonstrating real-world security impact."
+    tag: "Bugcrowd, HackerOne, Burp Suite, Nuclei, OWASP"
+    duration: "2024 - Present"
+
+  - company: "🌐 Cisco "
+    description: "Virtual Cyber Security Intern"
+    bullet_points:
+      - "Learning cybersecurity fundamentals, network defense, vulnerability assessment, and security operations."
+      - "Working on practical labs covering networking, Linux, incident response, and security best practices."
+      - "Building hands-on experience with real-world cybersecurity scenarios and defensive techniques."
+    tag: "Cyber Security, Networking, SOC, Linux"
+    duration: "2026 - Present"
+
+  - company: "💻 The Developers Arena"
+    description: "Web Development Intern"
+    bullet_points:
+      - "Participating in a structured 3-month virtual internship focused on modern web development."
+      - "Building real-world web development projects while following industry best practices."
+      - "Completing weekly project submissions and technical assessments in a self-paced environment."
+    tag: "HTML, CSS, JavaScript, Git"
+    duration: "Jun 2026 - Present"
+
+  - company: "🎓 Self Learning & Security Research"
+    description: "Cyber Security Student and Offensive Security Enthusiast"
+    bullet_points:
+      - "Pursuing B.Tech in Computer Science Engineering (Cyber Security)."
+      - "Practicing Web, API, and Network Penetration Testing through personal labs and Capture The Flag (CTF) challenges."
+      - "Developing automation scripts and security tools for reconnaissance and vulnerability validation."
+      - "Researching OWASP Top 10, Active Directory, Cloud Security, and modern offensive security techniques."
+    tag: "Python, Linux, Burp Suite, Nmap, OWASP"
+    duration: "2023 - Present"

@@ -1,0 +1,8 @@
+title: "🧰 Tech Stack"
+categories:
+  Languages: "JavaScript, Python, Bash, Html, Css, Java"
+  Cyber Security: "VAPT/WAPT, Web, API, Network Security, AD and Think client pentesting, OWASP Top 10,  Bug Bounty, OSINT"
+  Frontend: "React, Tailwind CSS"
+  Backend: "Node.js, SpringBoot, GraphQL, REST"
+  Database: "MongoDB, MySQL"
+  Testing: "Jest, Postman" 

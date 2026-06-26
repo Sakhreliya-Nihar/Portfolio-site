@@ -1,0 +1,20 @@
+title: "🕰️ My Tech Journey"
+timeline:
+  - year: "2005"
+    event: "Born in **India**"
+  - year: "2023"
+    event: "Built my first web  application using **PHP**"
+  - year: "2023 – 2027"
+    event: "BTech in Computer Science, **P P Savani University**"
+    details:
+      - "**2023** — Built my first **PHP-based web application**"
+      - "**Sep 2024** — Built my first **Student Management web app** for coursework"
+      - "**2023** — Work with team to create a **Java SpringBoot  final-year project**"
+  - year: "May 2024"
+    event: "Released"
+    details:
+      - "An **Role-Based Access Control (RBAC) System** for Student Achievement Management, built with PHP and MySQL"
+      - "A **Typescript-Based Portfolio Website**"
+  - year: "Feb 2025"
+    event: "Built my first **NetLeck and Vajra security tools**"
+footer: "**...The journey continues. 🚀**" 

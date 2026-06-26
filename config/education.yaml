@@ -1,0 +1,19 @@
+title: "📚 Education"
+items:
+
+  - degree: "B.tech Computer Science and Engineering(Cybersecurity)"
+    school: "P P Savani University"
+    duration: "Sep 2023 - May 2027"
+    description: "Specialized in Communication Technology and Cybersecurity with Certificate. Grade: 7.8/10 Distinction."
+    bullet_points:
+      - "Specialized in Communication Technology and Cybersecurity with Certificate"
+      - "Grade: 7.8/10 Distinction"
+    skills: "Python ,Html, PHP, CSS ,Java, React.js, Express.js, Front-End Development, MySQL, Next.js, Javascript, Web Framework, Algorithms, MongoDB, Git, Linux, AngularJS"
+
+  - degree: "Higher Secondary Education"
+    school: "J B & Karp vidhya Sankul"
+    duration: "2021 - 2023"
+    description: "Completed Higher Secondary Education with a focus on Science and Mathematics."
+    bullet_points:
+      - "Completed Higher Secondary Education with a focus on Science and Mathematics with 96 percentile."
+    skills: "Mathematics, Physics, Chemistry, Biology"
