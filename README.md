@@ -1,284 +1,258 @@
-# Nihar Sakhreliya
-
-[![wakatime](https://wakatime.com/badge/user/7f899f26-8070-47ba-b38f-c89a2fa80139.svg)](https://wakatime.com/@7f899f26-8070-47ba-b38f-c89a2fa80139)
-
-*Full Stack Developer*
-
-> "Kindness always come back in the ways we don't expect."
-> — Nihar
-
-### Contact
-- **Website**: [https://github.com/Sakhreliya-Nihar](https://github.com/Sakhreliya-Nihar)
-- **Email**: niharsakhreliya4@gmail.com
-- **LinkedIn**: [Profile](https://www.linkedin.com/in/nihar-sakhreliya/)
-- **Address**: kamrej,surat, Gujarat, India
-
-## Table of Contents
-
-- [🔭 What I'm working on](#-what-i-m-working-on)
-- [🌱 Currently Learning](#-currently-learning)
-- [💼 Experience Highlights](#-experience-highlights)
-- [📚 Education](#-education)
-- [🧰 Tech Stack](#-tech-stack)
-- [✨ Fun Facts](#-fun-facts)
-- [🕰️ My Tech Journey](#-my-tech-journey)
-- [💼 Projects](#-projects)
-
-
-## 🔭 What I'm working on
-
-- 🛡️ Building **DevScope AI** — Advanced Static Security & Code Quality Platform
-- 🔍 Actively researching **Web, API, and Cloud Security** through bug bounty programs on Bugcrowd and HackerOne.
-- 🧠 Building **Cyber Security tools** to automate reconnaissance, vulnerability discovery, and security testing workflows.
-- 🎯 Enhancing **secure software development** by combining modern web technologies with offensive security research.
-
-
-## 🌱 Currently Learning
-
-- 🛡️ Preparing for **eJPT** & **OSCP** certifications
-- 🛡️ Advanced **Application Security** & **DevSecOps**
-- 🔐 Security engineering for scalable systems
-- 🤖 **AI for Cybersecurity** and Security Automation
-
-
-## 💼 Experience Highlights
-
-### 🛡️ Independent Security Researcher
-*2024 - Present*
-
-Actively performing vulnerability research and bug bounty hunting across public and private programs.
-
-- Performed security assessments on government and enterprise applications through Bugcrowd and HackerOne.
-- Reported vulnerabilities including Cross-Site Scripting (XSS), Information Disclosure, CORS Misconfiguration, HTML Injection, and exposed developer resources.
-- Conducted reconnaissance, attack surface mapping, API security testing, and responsible vulnerability disclosure.
-- Worked with security triage teams from organizations including NASA, Sky, Marigold, and other private programs.
-- Continuously improving findings by validating exploitability and demonstrating real-world security impact.
-
-**Technologies**: `Bugcrowd` `HackerOne` `Burp Suite` `Nuclei` `OWASP`
+# 🌍 Personal Website & GitHub Profile Sync 
 
 ---
 
-### 🌐 Cisco 
-*2026 - Present*
+### 🚀 Personal Website & GitHub Profile Auto-Sync System
 
-Virtual Cyber Security Intern
+This is a Next.js personal portfolio website that automatically generates and syncs a README to your GitHub profile repository. Built with YAML-based configuration for easy content management.
 
-- Learning cybersecurity fundamentals, network defense, vulnerability assessment, and security operations.
-- Working on practical labs covering networking, Linux, incident response, and security best practices.
-- Building hands-on experience with real-world cybersecurity scenarios and defensive techniques.
+#### ✨ Features
 
-**Technologies**: `Cyber Security` `Networking` `SOC` `Linux`
+- 🌐 **Modern Next.js Website** with Tailwind CSS & ShadCN UI
+- 📝 **YAML-Based Content** - Easy to edit configuration files
+- 🤖 **Auto-Sync to GitHub** - Keep your GitHub profile updated automatically
+- 🏷️ **Smart Project Filtering** - Filter projects by technology tags
+- 📱 **Responsive Design** - Works on all devices
+- 🔄 **Real-time Updates** - Changes sync automatically via GitHub Actions
+- 🌍 **Bilingual Support** - Documentation in English and Chinese
 
----
+#### 🛠️ Tech Stack
 
-### 💻 The Developers Arena
-*Jun 2026 - Present*
-
-Web Development Intern
-
-- Participating in a structured 3-month virtual internship focused on modern web development.
-- Building real-world web development projects while following industry best practices.
-- Completing weekly project submissions and technical assessments in a self-paced environment.
-
-**Technologies**: `HTML` `CSS` `JavaScript` `Git`
+- **Frontend**: Next.js 15+, React, TypeScript, Tailwind CSS
+- **UI Components**: ShadCN UI, Lucide Icons
+- **Content**: YAML configuration files
+- **Automation**: GitHub Actions, Node.js scripts
+- **Markdown**: React-Markdown for proper formatting
 
 ---
 
-### 🎓 Self Learning & Security Research
-*2023 - Present*
+### 🏗️ Setup Instructions
 
-Cyber Security Student and Offensive Security Enthusiast
+#### 1. Clone & Install
 
-- Pursuing B.Tech in Computer Science Engineering (Cyber Security).
-- Practicing Web, API, and Network Penetration Testing through personal labs and Capture The Flag (CTF) challenges.
-- Developing automation scripts and security tools for reconnaissance and vulnerability validation.
-- Researching OWASP Top 10, Active Directory, Cloud Security, and modern offensive security techniques.
+```bash
+git clone <your-repo-url>
+cd your-repo-name
+npm install
+```
 
-**Technologies**: `Python` `Linux` `Burp Suite` `Nmap` `OWASP`
+#### 2. Configure Environment Variables
 
----
+Copy the example environment file and customize it:
 
+```bash
+cp .env.example .env
+```
 
+Edit `.env` with your information:
 
-## 📚 Education
+```env
+# GitHub Configuration
+GITHUB_USERNAME=YourGitHubUsername
+GITHUB_PROFILE_REPO=YourGitHubUsername/YourGitHubUsername
 
-### B.tech Computer Science and Engineering(Cybersecurity), **P P Savani University**
-*Sep 2023 - May 2027*
+# Git Configuration  
+GIT_USER_NAME=Your Full Name
+GIT_USER_EMAIL=your.email@example.com
 
-Specialized in Communication Technology and Cybersecurity with Certificate. Grade: 7.8/10 Distinction.
-- Specialized in Communication Technology and Cybersecurity with Certificate
-- Grade: 7.8/10 Distinction
+# Commit Configuration
+COMMIT_MESSAGE=🤖 Auto-update profile README from website
+COMMIT_BRANCH=main
 
-**Skills:** Python ,Html, PHP, CSS ,Java, React.js, Express.js, Front-End Development, MySQL, Next.js, Javascript, Web Framework, Algorithms, MongoDB, Git, Linux, AngularJS
+# Language Configuration (en/in)
+DEFAULT_LANGUAGE=en
+```
 
----
+#### 3. Customize Your Content
 
-### Higher Secondary Education, **J B & Karp vidhya Sankul**
-*2021 - 2023*
+Edit the YAML files in the `config/` directory:
 
-Completed Higher Secondary Education with a focus on Science and Mathematics.
-- Completed Higher Secondary Education with a focus on Science and Mathematics with 96 percentile.
+- **`config/intro.yaml`** - Your name, title, contact info, quote
+- **`config/projects.yaml`** - Your projects with descriptions and tech tags
+- **`config/experience.yaml`** - Work experience and achievements
+- **`config/tech_stack.yaml`** - Technologies organized by categories
+- **`config/education.yaml`** - Educational background
+- **`config/current_work.yaml`** - What you're currently working on
+- **`config/learning.yaml`** - What you're currently learning
+- **`config/fun_facts.yaml`** - Personal fun facts
+- **`config/journey.yaml`** - Your tech journey timeline
 
-**Skills:** Mathematics, Physics, Chemistry, Biology
+#### 4. Test Locally
 
----
+```bash
+# Test the setup
+npm run test-sync
 
+# Generate README from YAML
+npm run generate-readme
 
+# Run the website locally
+npm run dev
+```
 
-## 🧰 Tech Stack
+#### 5. Setup GitHub Auto-Sync (Optional but Recommended)
 
-### Languages
+##### 5.1 Create Personal Access Token
+1. Go to GitHub Settings → Developer settings → Personal access tokens → Tokens (classic)
+2. Click "Generate new token (classic)"
+3. Name: `Profile Sync Token`
+4. Scopes: Select `repo` (full control)
+5. Copy the generated token
 
-`JavaScript` `Python` `Bash` `Html` `Css` `Java`
+##### 5.2 Create Profile Repository
+```bash
+# Create repository with your exact username
+gh repo create YourUsername/YourUsername --public --clone
+cd YourUsername
+echo "# Hi there! 👋" > README.md
+git add . && git commit -m "Initial commit" && git push
+```
 
-### Cyber Security
+##### 5.3 Add Secrets to Website Repository
+1. Go to your website repository → Settings → Secrets and variables → Actions
+2. Add these secrets:
+   - `PROFILE_SYNC_TOKEN` = Your personal access token
 
-`VAPT/WAPT` `Web` `API` `Network Security` `AD and Think client pentesting` `OWASP Top 10` `Bug Bounty` `OSINT`
+##### 5.4 Add Variables (Optional)
+Go to Settings → Secrets and variables → Actions → Variables tab:
+- `GITHUB_USERNAME` = Your GitHub username
+- `GITHUB_PROFILE_REPO` = YourUsername/YourUsername
+- `GIT_USER_NAME` = Your display name
+- `GIT_USER_EMAIL` = Your email
 
-### Frontend
-
-`React` `Tailwind CSS`
-
-### Backend
-
-`Node.js` `SpringBoot` `GraphQL` `REST`
-
-### Database
-
-`MongoDB` `MySQL`
-
-### Testing
-
-`Jest` `Postman`
-
-
-## ✨ Fun Facts
-
-- 💬 Fluent in Gujarati , Hindi & English
-- 🕹️ Gamer at heart: Valorant
-- 🔍 Obsessed with  bug hunting , debugging & clean code
-
-
-## 🕰️ My Tech Journey
-
-### 2005
-
-Born in **India**
-
-### 2023
-
-Built my first web  application using **PHP**
-
-### 2023 – 2027
-
-BTech in Computer Science, **P P Savani University**
-
-- **2023** — Built my first **PHP-based web application**
-- **Sep 2024** — Built my first **Student Management web app** for coursework
-- **2023** — Work with team to create a **Java SpringBoot  final-year project**
-
-### May 2024
-
-Released
-
-- An **Role-Based Access Control (RBAC) System** for Student Achievement Management, built with PHP and MySQL
-- A **Typescript-Based Portfolio Website**
-
-### Feb 2025
-
-Built my first **NetLeck and Vajra security tools**
-
-
-**...The journey continues. 🚀**
-
-
-## 💼 Projects
-
-### Portfolio
-
-Sync from GitHub Personal Introduction & Website.
-
-- Sync the GitHub Personal Introduction & Website and sync to every platform.
-- One place to manage all my projects and skills.
-
-**Technologies**: `Next.js` `React` `Node.js` `CI/CD` `GitHub Actions` `Vercel` `Tailwind CSS` `Shadcn UI` `TypeScript` `JavaScript`
-
-**Links**: [Repository](https://github.com/Sakhreliya-Nihar/Portfolio-site) • [Live Demo](https://niharsakhreliya-portfolio.vercel.app/)
+##### 5.5 Push and Activate
+```bash
+git add .
+git commit -m "Setup auto-sync system"
+git push origin main
+```
 
 ---
 
-### SAMS - Certificate Issue Verification
+### 🎯 Usage
 
-Student Achievement Management System — a full-stack web application that centralizes the issuance and verification of student certificates and academic achievements.
+#### Development Commands
 
-- Role-based access control for admins, teachers, and students, each with tailored dashboards and privileges
-- Secure certificate issuance, upload, and verification workflow backed by PHP and MySQL
-- Responsive front-end built with HTML5, CSS3, JavaScript, and Bootstrap with PHPMailer integration for email notifications
+```bash
+npm run dev              # Start development server
+npm run build            # Build for production
+npm run generate-readme  # Generate README from YAML files
+npm run deploy-profile   # Deploy README to GitHub profile
+npm run sync-github      # Generate + Deploy in one command
+npm run test-sync        # Test all configurations
+```
 
-**Technologies**: `PHP` `MySQL` `HTML` `CSS` `JavaScript` `Bootstrap` `PHPMailer` `XAMPP`
+#### Content Management
 
-**Links**: [Repository](https://github.com/Sakhreliya-Nihar/Certificate_issue_verification)
+1. **Edit YAML files** in `config/` directory
+2. **Push changes** to your repository
+3. **GitHub Actions automatically**:
+   - Generates new README
+   - Updates your GitHub profile
+   - Takes 2-3 minutes
 
----
+#### Manual Sync (Alternative)
 
-### CertiScan Auth Verify
+```bash
+# Authenticate with GitHub CLI (one-time)
+gh auth login
 
-A modern certificate authentication and verification platform built with React and Supabase, enabling secure document validation workflows with a polished UI.
-
-- Built with Vite, TypeScript, React, and Shadcn UI for a fast, type-safe development experience
-- Integrates Supabase for backend authentication, real-time data handling, and cloud storage
-- Styled with Tailwind CSS for a responsive and accessible interface across all devices
-
-**Technologies**: `TypeScript` `React` `Vite` `Shadcn UI` `Tailwind CSS` `Supabase` `JavaScript`
-
-**Links**: [Repository](https://github.com/Sakhreliya-Nihar/certiscan-auth-verify)
-
----
-
-### NetLeak
-
-A dual-browser extension for Chrome and Firefox that detects and flags network information leaks, helping security researchers and privacy-conscious users identify real IP and DNS exposure.
-
-- Available for both Chrome and Firefox via separate browser-specific extension manifests
-- Identifies real IP addresses exposed through WebRTC, DNS lookups, and other browser-level network APIs
-- Lightweight and in-browser — no external dependencies; built with vanilla JavaScript and HTML
-
-**Technologies**: `JavaScript` `HTML` `Browser Extension` `Chrome` `Firefox` `WebRTC` `Network Security` `OSINT`
-
-**Links**: [Repository](https://github.com/Sakhreliya-Nihar/NetLeak)
+# Sync manually
+npm run sync-github
+```
 
 ---
 
-### Vajra
+### 📁 Project Structure
 
-A lightweight SSRF reconnaissance and validation toolkit that automates subdomain enumeration, endpoint discovery, parameter extraction, payload injection, and concurrent request execution to streamline Server-Side Request Forgery testing.
-
-- Automates the SSRF reconnaissance pipeline by integrating subdomain discovery, live host detection, URL harvesting from Wayback Machine, GAU, and active crawling.
-- Identifies parameterized endpoints, injects customizable SSRF callback payloads, and performs high-speed concurrent validation for efficient blind SSRF testing.
-- Designed for penetration testers and bug bounty hunters with support for popular open-source tools including Subfinder, Assetfinder, Httpx, Hakrawler, Waybackurls, GAU, QSReplace, and Concurl.
-
-**Technologies**: `Bash` `SSRF` `Bug Bounty`
-
-**Links**: [Repository](https://github.com/Sakhreliya-Nihar/Vajra)
+```
+├── config/                  # YAML configuration files
+│   ├── intro.yaml          # Personal intro & contact
+│   ├── projects.yaml       # Project portfolio
+│   ├── experience.yaml     # Work experience
+│   ├── tech_stack.yaml     # Technology skills
+│   └── ...                 # Other content files
+├── src/
+│   ├── app/                # Next.js app directory
+│   ├── components/         # React components
+│   │   ├── sections/       # Content sections
+│   │   └── ui/             # UI components
+│   ├── lib/                # Utility functions
+│   └── types/              # TypeScript types
+├── .github/workflows/      # GitHub Actions
+├── generateReadme.js       # README generator script
+├── deployToGithub.js      # GitHub sync script
+├── .env                   # Environment variables
+└── README.md              # This file
+```
 
 ---
 
-### Web Attack Cheat Sheet
+### 🔧 Customization
 
-A comprehensive reference guide covering common web attack techniques, maintained as a hands-on resource for penetration testing and bug bounty hunting engagements.
+#### Adding New Content Sections
 
-- Covers OWASP Top 10 attack categories including SSRF, IDOR, SQLi, XSS, and command injection
-- Structured as an actionable methodology reference for web application security assessments
-- Used as a personal reference during active bug bounty programs targeting platforms like IBM and PhonePe
+1. **Create new YAML file** in `config/`
+2. **Add corresponding component** in `src/components/sections/`
+3. **Update types** in `src/types/index.ts`
+4. **Generator automatically detects** new files
 
-**Technologies**: `Web Security` `Penetration Testing` `OWASP` `Bug Bounty` `Cheat Sheet` `Methodology`
+#### Modifying Design
 
-**Links**: [Repository](https://github.com/Sakhreliya-Nihar/Web-Attack-Cheat-Sheet)
+- **Tailwind classes** in components for styling
+- **ShadCN components** for consistent UI
+- **Edit layout** in `src/app/page.tsx`
+
+#### Changing Sync Behavior
+
+- **Modify triggers** in `.github/workflows/sync-profile-readme.yml`
+- **Update commit messages** in `.env`
+- **Change target repository** in environment variables
+
+---
+
+### 🐛 Troubleshooting
+
+#### Common Issues
+
+**Sync Not Working?**
+```bash
+npm run test-sync  # Check all configurations
+gh auth status     # Verify GitHub authentication
+```
+
+**README Not Generated?**
+```bash
+npm run generate-readme  # Test generation locally
+# Check YAML syntax in config files
+```
+
+**GitHub Actions Failing?**
+1. Check Actions tab in your repository
+2. Verify `PROFILE_SYNC_TOKEN` secret is set
+3. Ensure target repository exists
+4. Check token permissions include `repo`
+
+---
+
+### 📚 Resources
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [ShadCN UI Components](https://ui.shadcn.com/)
+- [GitHub Actions Documentation](https://docs.github.com/en/actions)
+- [YAML Syntax Guide](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html)
 
 ---
 
 
+## 🤝 Contributing 
+
+Feel free to open issues and pull requests! 
+
+## 📄 License 
+
+MIT License 
 
 ---
 
-*This README was automatically generated from YAML configuration files on 6/26/2026*
+*Generated with ❤️ using Next.js and GitHub Actions *
